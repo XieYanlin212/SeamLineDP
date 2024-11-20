@@ -11,4 +11,4 @@ We set the end and start points of the stitching line in the overlapping area. W
 change to
     end_point = np.unravel_index(np.argmin(dp[-1, :]), dp.shape)
     start_point = (int(end_point[0]), int(end_point[1]))
-    
+
