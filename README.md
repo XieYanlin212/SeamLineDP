@@ -12,3 +12,4 @@ change to
     end_point = np.unravel_index(np.argmin(dp[-1, :]), dp.shape)
     start_point = (int(end_point[0]), int(end_point[1]))
 
+![image](https://github.com/user-attachments/assets/fd9825bb-cbdc-4472-a6ed-4b8fc9091815)
