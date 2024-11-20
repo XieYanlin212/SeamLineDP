@@ -45,7 +45,6 @@ mask[y_min:y_max, x_min:x_max] = 255
 
 
 intersection_dict,intersection_1 = find_intersections(M, img1, img2)
-# 打印交点
 for label, point in intersection_dict.items():
     print(f"{label}: {point}")
 
