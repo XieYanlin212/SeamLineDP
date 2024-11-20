@@ -2,7 +2,7 @@ This work is based on the environment
 -python
 -opencv
 -torch
--macsac
+-magsac
 
 After installing the required libraries, set the image path you want to splice in the main file and then allow it
 
